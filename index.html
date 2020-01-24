@@ -54,14 +54,14 @@
           </div>
         </nav>
       </div>
-      <div class="order-2 order-sm-1 col-12 col-sm-6 d-flex flex-column justify-content-end">
+      <div class="order-2 order-sm-1 col-12 col-sm-6 d-flex flex-column justify-content-end p-2">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis odio, cum molestiae recusandae repellat ab,
           repellendus similique, qui at exercitationem mollitia ipsa voluptatem voluptates odit numquam quibusdam
           incidunt repudiandae facilis.</p>
         <button type="button" class="btn btn-primary btn-lg btn-block">Block button</button>
       </div>
       <div class="order-1 order-sm-2 col-12 col-sm-6">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide p-2" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="https://picsum.photos/300/200" class="d-block w-100" alt="...">
@@ -81,13 +81,28 @@
 
   <main>
     <section id="card_section" class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-sm-4">cards</div>
+      <div class="row bg-yellow">
+        <div class="col-12 col-sm-4">
+
+
+          <div class="card bgnd-trans brdr-trans">
+            <img src=" https://picsum.photos/200/200" class="card-img-top rounded-circle p-4" alt="...">
+            <div class="card-body bgnd-purple">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+
+        </div>
         <div class="col-12 col-sm-4">cards</div>
         <div class="col-12 col-sm-4">cards</div>
       </div>
       <div class="row">
-        <div class="col-12">Row Line Break</div>
+        <div class="col-12 line-break"></div>
       </div>
     </section>
     <section id="media_section" class="container">
@@ -102,11 +117,12 @@
       </div>
     </section>
   </main>
+
   <footer id="footer_section" class="container-fluid">
     <div class="row">
-      <div class="col-12 col-sm-1">some data</div>
+      <div class="col-12 col-sm-1 d-flex justify-content-center">some data</div>
       <div class="col-12 col-sm-10"></div>
-      <div class="col-12 col-sm-1">some data</div>
+      <div class="col-12 col-sm-1 d-flex justify-content-center">some data</div>
     </div>
   </footer>
 
