@@ -20,7 +20,7 @@
    background-color: rgb(180, 180, 8);
  }
  .line-break{
-   height: 4rem;
+   height: 20vh;
    border-bottom: purple;
    border-bottom-style: solid;
  }
@@ -30,8 +30,12 @@
  .pos-absol{
    position: absolute;
  }
- .top-pos-10{
-   top: 10px;
+ .top-pos-dn{
+   top: 10vh;
+ }
+  .shift-btn-dn{
+   bottom: -1rem;
+   width: 87%;
  }
  .bgnd-trans{
    background: transparent;
