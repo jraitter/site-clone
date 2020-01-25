@@ -13,6 +13,9 @@ body{
   .bgnd-grad-img{
     background-image: url("gradient-bg.jpg") ;
   }
+  .bgnd-lin-grad{
+     background-image: linear-gradient( rgb(190, 10, 190), purple);
+  }
  .bg-yellow{
    background-color: rgb(180, 180, 8);
  }
