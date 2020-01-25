@@ -9,12 +9,15 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+    integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Bootstrap final challenge</title>
 </head>
 
 <body>
-  <header id="navbar_section" class="container-fluid">
+  <!-- header and navbar section -->
+  <header id="navbar_section" class="container-fluid bgnd-grad-img">
     <div class="row">
       <div class="col-1">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -80,11 +83,11 @@
   </header>
 
   <main>
+    <!-- Card section: add three cards, offset form top, position button below -->
     <section id="card_section" class="container-fluid">
       <div class="row bg-yellow ">
-        <div class="col-12 col-md-4 ">
-
-
+        <div class="col-12 col-sm-4 ">
+          <!-- card 1 -->
           <div class="card bgnd-trans brdr-trans d-flex  top-pos-dn">
             <img src=" https://picsum.photos/200/200" class="card-img-top rounded-circle p-4" alt="...">
             <div class="card-body bgnd-purple d-flex flex-column justify-content-end ">
@@ -96,10 +99,9 @@
               <a href="#" class="btn btn-primary pos-absol shift-btn-dn">Go somewhere</a>
             </div>
           </div>
-
-
+          <!-- card 2 -->
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-sm-4">
           <div class="card bgnd-trans brdr-trans d-flex  top-pos-dn">
             <img src=" https://picsum.photos/200/200" class="card-img-top rounded-circle p-4" alt="...">
             <div class="card-body bgnd-purple d-flex flex-column justify-content-end ">
@@ -111,9 +113,8 @@
             </div>
           </div>
         </div>
-
-
-        <div class="col-12 col-md-4">
+        <!-- card 3 -->
+        <div class="col-12 col-sm-4">
           <div class="card bgnd-trans brdr-trans d-flex   top-pos-dn">
             <img src=" https://picsum.photos/200/200" class="card-img-top rounded-circle p-4" alt="...">
             <div class="card-body bgnd-purple d-flex flex-column justify-content-end ">
@@ -126,27 +127,46 @@
           </div>
         </div>
       </div>
-
-
+      <!-- add line-break -->
       <div class="row">
         <div class="col-12 line-break"></div>
       </div>
     </section>
+    <!-- Media section add image and description -->
     <section id="media_section" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-6">media image</div>
-        <div class="col-12 col-sm-6">media description</div>
+      <div class="row justify-content-center mt-5 mb-5">
+        <div class="col-12 col-sm-6">
+          <img src="https://picsum.photos/300/200" class="d-block w-100" alt="...">
+        </div>
+        <div class="col-12 col-sm-6">
+          <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis odio, cum molestiae recusandae
+            repellat ab,
+            repellendus similique, qui at exercitationem mollitia ipsa voluptatem voluptates odit numquam quibusdam
+            incidunt repudiandae facilis.</p>
+        </div>
       </div>
     </section>
+    <!-- logo section -->
     <section id="logo_section" class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-4">Logo image and discription</div>
+      <div class="row ">
+        <div class="col-12">
+          <div class="row d-flex justify-content-center bgnd-grad-img">
+            <!-- <img src="https://picsum.photos/200/200" alt=""> -->
+            <i class="fa-3x fas fa-globe-americas"></i>
+          </div>
+          <div class="row d-flex justify-content-center bgnd-grad-img">
+            <p class="font-small">small logo description</p>
+
+          </div>
+
+
+        </div>
       </div>
     </section>
   </main>
-
+  <!-- footer -->
   <footer id="footer_section" class="container-fluid">
-    <div class="row">
+    <div class="row text-white bg-dark">
       <div class="col-12 col-sm-1 d-flex justify-content-center">some data</div>
       <div class="col-12 col-sm-10"></div>
       <div class="col-12 col-sm-1 d-flex justify-content-center">some data</div>

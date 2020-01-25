@@ -1,5 +1,5 @@
-*{
-  /* outline: 1px solid red; */
+body{
+  min-height: 100vh;
 }
 /* #navbar_section{
     width: 100%;
@@ -10,10 +10,7 @@
       purple 50%
     );
   } */
-  body{
-    min-height: 100vh;
-  }
-  #navbar_section{
+  .bgnd-grad-img{
     background-image: url("gradient-bg.jpg") ;
   }
  .bg-yellow{
@@ -45,4 +42,7 @@
  }
  .bgnd-purple{
    background-color: rgb(190, 10, 190);
+ }
+ .font-small{
+   font-size: x-small;
  }
